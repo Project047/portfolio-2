@@ -54,12 +54,16 @@ body {
   transition: 0.2s linear !important;
 }
 
+body.active {
+  padding-left: 35rem;
+}
+
 /*---heder section start------*/
 
 .header {
   position: fixed;
   top: 0;
-  left: 0;
+  left: -35rem;
   height: 100vh;
   background-color: var(--white);
   border-right: var(--border-bold);
@@ -119,5 +123,35 @@ body {
   background-color: var(--black);
   color: var(--white);
 }
+
+.header.active {
+  left: 0;
+}
+
 /*heder section end*/
 /* body style end */
+
+/* media queries */
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  body.activ {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .header {
+    padding-top: 7rem;
+  }
+
+  #menu-btn.fa-times {
+    right: 0;
+  }
+}
+/*0.15 min */
