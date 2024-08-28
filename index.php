@@ -42,11 +42,47 @@
 
     <!-- header section ends -->
 
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="image">
+            <img src="img/user-img.jpg" alt="user image">
+        </div>
+        <div class="content">
+            <h3> hi , i am rushikesh kore </h3>
+            <span> web designer & developer </span>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime debitis cupiditate libero recusandae animi quis, in labore? Quos reprehenderit,
+                reiciendis a suscipit beatae aperiam amet, eveniet quaerat vel nulla maiores?</p>
+            <a href="#about" class="btn">about me</a>
+        </div>
+    </section>
+    <!-- home section end -->
 
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>biography</span></h1>
 
+        <div class="biography">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, earum beatae?
+                Earum magnam similique id quasi soluta deserunt corporis nisi.</p>
 
-
-
+            <div class="bio">
+                <h3><span>name :</span>Rushikesh Kore</h3>
+                <h3><span>email :</span>mysteriousman0947@gmail.com</h3>
+                <h3><span>address :</span>kolhapur ,india</h3>
+                <h3><span>phone :</span>+123-456-7890</h3>
+                <h3><span>age :</span>23 years</h3>
+                <h3><span>experience :</span>2+ years</h3>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="skills">
+            <h1 class="heading"><span>skills</span></h1>
+            <div class="progress">
+                <div class="bar"><span>HTML</span> <span>95%</span></div>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
 
 
 

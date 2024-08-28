@@ -58,6 +58,36 @@ body.active {
   padding-left: 35rem;
 }
 
+section {
+  padding: 3rem 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.heading span {
+  text-transform: uppercase;
+  font-size: 6.5rem;
+  border-bottom: var(--border-bold);
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  border: var(--border-light);
+  font-size: 2rem;
+}
+
+.btn :hover {
+  background-color: var(--black);
+  color: var(--white);
+}
 /*---heder section start------*/
 
 .header {
@@ -136,7 +166,7 @@ body.active {
   html {
     font-size: 55%;
   }
-  body.activ {
+  body.active {
     padding-left: 0;
   }
 }
@@ -146,12 +176,91 @@ body.active {
     font-size: 50%;
   }
 
-  .header {
+  .header.active {
     padding-top: 7rem;
   }
 
   #menu-btn.fa-times {
     right: 0;
   }
+  .home .image img {
+    height: auto;
+    width: 100%;
+  }
+  .heading span {
+    font-size: 4rem;
+  }
+  .about .biography .bio h3 {
+    font-size: 2rem;
+  }
 }
-/*0.15 min */
+
+/* home image and css */
+
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  min-height: 100vh;
+}
+
+.home .image {
+  flex: 1 1 40rem;
+}
+
+.home .image img {
+  height: 65rem;
+  padding: 2rem;
+  border: var(--border-bold);
+}
+
+.home .content {
+  flex: 1 1 40rem;
+}
+
+.home .content h3 {
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+}
+.home .content span {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: var(--yellow);
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.home .content p {
+  font-size: 1.7rem;
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+.about .biography p {
+  margin: 2rem auto;
+  max-width: 70rem;
+  line-height: 2;
+  font-size: 1.7rem;
+}
+
+.about .biography .bio {
+  margin: 1rem 0;
+}
+
+.about .biography .bio h3 {
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin: 1rem;
+  background-color: var(--light-bg);
+  border: var(--border-light);
+  word-break: break-all;
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.about .biography .bio h3 span {
+  font-weight: lighter;
+}
