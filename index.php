@@ -191,9 +191,6 @@
             </div>
         </div>
 
-
-
-
     </section>
 
 
@@ -240,30 +237,46 @@
 
         </div>
 
-
-
-
-
-
-
     </section>
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- portfolio section end -->
 
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact me</span></h1>
 
+        <form action="" method="post">
+            <div class="flex">
+                <input type="text" name="name" placeholder="enter your name" class="box" required>
+                <input type="email" name="email" placeholder="enter your email" class="box" required>
+            </div>
+            <input type="number" min="0" name="number" placeholder="enter your number" class="box" required>
+            <textarea name="message" class="box" placeholder="enter your message" required cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" name="send" class="btn">
+        </form>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3>phone</h3>
+                <p>+123-456-7890</p>
+            </div>
 
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <p>mysteriousman0947@gmail.com</p>
+            </div>
 
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>address</h3>
+                <p>kolhapur ,india - 416121</p>
+            </div>
+    </section>
+
+    <!-- contact section end -->
+
+    <div class="credit"> &copy; copyright @ <?php echo date('Y'); ?> by <span>mr. rushikesh kore</span></div>
 
 
 
